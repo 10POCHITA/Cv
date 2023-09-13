@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formacion</title>
+<style>
+    *{
+        margin: 0px;
+        }
+body{
+    background-color: black;
+    color: white    ;
+}
+
+header{
+    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            background-color: blue;
+            
+            width: 100vw;
+            height: 30vh;
+            color: white;
+}
+table{
+    align-items: center;
+    border: "1";
+    border: 1px solid white;
+   border-collapse: collapse;
+   margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 10px;
+}
+div{
+    background-color: blue;
+    border: 10px solid black;
+}
+
+</style>
+
+</head>
+
+
+
+
+<body>
+    <header>
+        <h1>UACM</h1>
+
+        <h2><a href="https://www.uacm.edu.mx/Oferta_academica/CCyT/Licenciaturas/SW">Ingenieria en Software</a></h2>
+        <h3>Formar profesionales capaces de proporcionar soluciones a problemas de diferente magnitud de múltiples áreas, mediante el desarrollo y mantenimiento de sistemas de software de diferentes escalas, utilizando de modo efectivo y eficiente los métodos y las herramientas que permitan alcanzar un alto nivel de calidad, optimizando tanto el tiempo como los costos, y sujetándose a las normas éticas de su profesión.</h3>
+    </header>
+<main>
+    <div >
+         <table>
+        <h2 >Programa de estudios</h2>
+        
+        <head>
+            <td>Semestre</td>
+            <td>Clave </td>
+            <td>Curso</td>
+            <td>Créditos</td>
+
+        </head>
+        <tr>
+            <td>1</td>
+            <td>1-CT-FS-01</td>
+            <td>Mecánica I</td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>1-CT-MT-01</td>
+            <td>Álgebra y geometría analítica</td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>1-CT-MT-02</td>
+            <td>Cálculo diferencial	</td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>1-CT-IF-01</td>
+            <td>Introducción a la programación</td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>1-CT-IS-01</td>
+            <td>Matemáticas discretas</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+    </div>
+  
+    <div>
+        <table>
+            <head>
+                <td>Semestre</td>
+                <td>Clave </td>
+                <td>Curso</td>
+                <td>Créditos</td>
+    
+            </head>
+            <tr>
+                <td>2</td>
+                <td>1-CT-FS-01</td>
+                <td>Cálculo integral</td>
+                <td>8</td>
+            </tr>
+    
+            <tr>
+                <td>2</td>
+                <td>1-CT-MT-01</td>
+                <td>Álgebra lineal</td>
+                <td>8</td>
+            </tr>
+    
+            <tr>
+                <td>2</td>
+                <td>1-CT-MT-02</td>
+                <td>Mecánica II	</td>
+                <td>8</td>
+            </tr>
+    
+            <tr>
+                <td>2</td>
+                <td>1-CT-IF-01</td>
+                <td>Introducción a la ingeniería de software</td>
+                <td>8</td>
+            </tr>
+    
+            <tr>
+                <td>2</td>
+                <td>1-CT-IS-01</td>
+                <td>Cultura y sociedad	</td>
+                <td>8</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="derecha">
+        <form>
+
+            <label for="nombre" >Ingresa tu nombre </label>
+           <input type="text"></input>
+            <br>
+            <input type="button" value="Enter"> 
+            <br>
+
+            <label for="opciones">Optativas </label>
+            <select>
+                <option >Lengua extranjera II: Inglés II</option>
+                <option >Fundamentos de administración</option>
+                <option value="">CAD en ingeniería</option>
+                <option value="">Lengua extranjera I: Inglés I</option>
+            
+            </select>
+            <br>
+            <p>Notas</p>
+            <textarea name="blocpequeño" cols="30" rows="10"></textarea>
+            <br>
+            <p>Comedor UACM</p>
+            <P>Que deseas tomar?</P>
+            <input type="radio" name="opciones" value="opcion1"> cafe <br>
+            <input type="radio" name="opciones" value="opcion2"> agua <br>
+            <input type="radio" name="opciones" value="opcion3"> jugo <br>
+        </form>
+
+    </div>
+
+</main>
+       
+</body>
+</html>
